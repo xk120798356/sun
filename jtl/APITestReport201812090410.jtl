@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="1653" it="0" lt="1653" ct="1586" ts="1544343059782" s="true" lb="登陆接口" rc="200" rm="OK" tn="花瓣 1-1" dt="text" de="utf-8" by="448" sby="374" sc="1" ec="0" ng="1" na="1" hn="sunbo">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 09 Dec 2018 08:10:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 188
+Connection: keep-alive
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Cache-Control: no-store
+Pragma: no-cache
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Request: JSON
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 49
+Host: huaban.com
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;err&quot;:500,&quot;msg&quot;:&quot;您的登录频率过快，系统判断您可能是机器人。完成以下验证，可以继续进行相关操作。$$captcha:rate:limit:post:2344853699:111.199.188.81&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">email=13439898139&amp;password=xk120798356&amp;_ref=frame</queryString>
+  <java.net.URL>https://huaban.com/auth/</java.net.URL>
+</httpSample>
+<httpSample t="78" it="0" lt="78" ct="40" ts="1544343061447" s="true" lb="添加画板" rc="200" rm="OK" tn="花瓣 1-1" dt="text" de="utf-8" by="424" sby="411" sc="1" ec="0" ng="1" na="1" hn="sunbo">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 09 Dec 2018 08:11:59 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 32
+Connection: keep-alive
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Cache-Control: no-store
+Pragma: no-cache
+N-SID: sid not found
+Set-Cookie: sid=sid%20not%20found; domain=huaban.com; path=/; expires=Sun, 09 Dec 2018 12:10:59 GMT; httpOnly
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+X-Request: JSON
+X-Requested-With: XMLHttpRequest
+Content-Length: 57
+Host: huaban.com
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;err&quot;:401,&quot;msg&quot;:&quot;Unauthorized&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">sid=sid not found</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">title=test&amp;category=anime&amp;creation=false&amp;is_private=false</queryString>
+  <java.net.URL>http://huaban.com/boards/</java.net.URL>
+</httpSample>
+<httpSample t="46" it="0" lt="46" ct="0" ts="1544343061526" s="true" lb="删除画板" rc="200" rm="OK" tn="花瓣 1-1" dt="text" de="utf-8" by="427" sby="404" sc="1" ec="0" ng="1" na="1" hn="sunbo">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 09 Dec 2018 08:11:59 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 35
+Connection: keep-alive
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Cache-Control: no-store
+Pragma: no-cache
+N-SID: sid not found
+Set-Cookie: sid=sid%20not%20found; domain=huaban.com; path=/; expires=Sun, 09 Dec 2018 12:10:59 GMT; httpOnly
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+X-Request: JSON
+X-Requested-With: XMLHttpRequest
+Content-Length: 14
+Host: huaban.com
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;err&quot;:404,&quot;msg&quot;:&quot;画板不存在&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">sid=sid not found
+Cookie: uid=uid not found</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">_method=DELETE</queryString>
+  <java.net.URL>http://huaban.com/boards/49447232/</java.net.URL>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1544343061607" s="true" lb="uid not found" rc="200" rm="OK" tn="花瓣 1-1" dt="text" de="GBK" by="289" sby="0" sc="1" ec="0" ng="1" na="1" hn="sunbo">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+JMeterThread.last_sample_ok=true
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@5d099dac
+START.HMS=161058
+START.MS=1544343058750
+START.YMD=20181209
+TESTSTART.MS=1544343059218
+__jm__花瓣__idx=0
+__jmeter.USER_TOKEN__=花瓣 1-1
+sid=sid not found
+uid=uid not found
+
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">JMeterVariables
+</samplerData>
+</sample>
+
+</testResults>
