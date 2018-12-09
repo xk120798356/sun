@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="2431" it="0" lt="2431" ct="2360" ts="1544268029780" s="true" lb="登陆接口" rc="200" rm="OK" tn="花瓣 1-1" dt="text" de="utf-8" by="951" sby="374" sc="1" ec="0" ng="1" na="1" hn="sunbo">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 08 Dec 2018 11:20:02 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 384
+Connection: keep-alive
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Cache-Control: no-store
+Pragma: no-cache
+P3P: CP=&quot;CURa ADMa DEVa PSAo PSDoOUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP  COR&quot;
+Access-Control-Allow-Origin: http://huaban.com
+Set-Cookie: sid=YQv3nWRuawxFIFI4gJjSrbDxhvh.GhyyMFhsYYNvNP7rKYzyPg7amN0KN307tj4bDq%2Fv7jQ; domain=huaban.com; path=/; expires=Mon, 07 Jan 2019 11:20:31 GMT; httpOnly
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+X-Request: JSON
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+Content-Length: 49
+Host: huaban.com
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;user&quot;:{&quot;user_id&quot;:24645310,&quot;username&quot;:&quot;long00000&quot;,&quot;urlname&quot;:&quot;myaf7ymxok&quot;,&quot;avatar&quot;:null,&quot;roles&quot;:&quot;&quot;,&quot;rating&quot;:8191,&quot;bindings&quot;:{},&quot;profile&quot;:{},&quot;status&quot;:{&quot;newbietask&quot;:1,&quot;featuretask&quot;:8,&quot;invites&quot;:0},&quot;extra&quot;:{},&quot;board_count&quot;:6,&quot;pin_count&quot;:0,&quot;like_count&quot;:0,&quot;boards_like_count&quot;:0,&quot;follower_count&quot;:0,&quot;following_count&quot;:5,&quot;commodity_count&quot;:0,&quot;creations_count&quot;:0},&quot;redirect&quot;:&quot;http://huaban.com/&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String"></cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">email=13439898139&amp;password=xk120798356&amp;_ref=frame</queryString>
+  <java.net.URL>https://huaban.com/auth/</java.net.URL>
+</httpSample>
+<httpSample t="103" it="0" lt="103" ct="39" ts="1544268032229" s="true" lb="添加画板" rc="200" rm="OK" tn="花瓣 1-1" dt="text" de="utf-8" by="916" sby="471" sc="1" ec="0" ng="1" na="1" hn="sunbo">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 08 Dec 2018 11:20:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 247
+Connection: keep-alive
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Cache-Control: no-store
+Pragma: no-cache
+P3P: CP=&quot;CURa ADMa DEVa PSAo PSDoOUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP  COR&quot;
+N-UID: 24645310
+Set-Cookie: uid=24645310; domain=huaban.com; path=/
+Set-Cookie: sid=YQv3nWRuawxFIFI4gJjSrbDxhvh.GhyyMFhsYYNvNP7rKYzyPg7amN0KN307tj4bDq%2Fv7jQ; domain=huaban.com; path=/; expires=Mon, 07 Jan 2019 11:20:31 GMT; httpOnly
+N-SID: YQv3nWRuawxFIFI4gJjSrbDxhvh.GhyyMFhsYYNvNP7rKYzyPg7amN0KN307tj4bDq/v7jQ
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+X-Request: JSON
+X-Requested-With: XMLHttpRequest
+Content-Length: 57
+Host: huaban.com
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;board&quot;:{&quot;user_id&quot;:24645310,&quot;title&quot;:&quot;test&quot;,&quot;description&quot;:&quot;&quot;,&quot;category_id&quot;:&quot;anime&quot;,&quot;seq&quot;:8,&quot;pin_count&quot;:0,&quot;follow_count&quot;:0,&quot;created_at&quot;:1544268031,&quot;updated_at&quot;:1544268031,&quot;deleting&quot;:0,&quot;is_private&quot;:0,&quot;extra&quot;:null,&quot;board_id&quot;:49551771,&quot;like_count&quot;:0}}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">sid=YQv3nWRuawxFIFI4gJjSrbDxhvh.GhyyMFhsYYNvNP7rKYzyPg7amN0KN307tj4bDq%2Fv7jQ</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">title=test&amp;category=anime&amp;creation=false&amp;is_private=false</queryString>
+  <java.net.URL>http://huaban.com/boards/</java.net.URL>
+</httpSample>
+<httpSample t="47" it="0" lt="47" ct="0" ts="1544268032333" s="true" lb="删除画板" rc="200" rm="OK" tn="花瓣 1-1" dt="text" de="utf-8" by="703" sby="459" sc="1" ec="0" ng="1" na="1" hn="sunbo">
+  <responseHeader class="java.lang.String">HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 08 Dec 2018 11:20:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 35
+Connection: keep-alive
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Cache-Control: no-store
+Pragma: no-cache
+P3P: CP=&quot;CURa ADMa DEVa PSAo PSDoOUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP  COR&quot;
+N-UID: 24645310
+Set-Cookie: uid=24645310; domain=huaban.com; path=/
+Set-Cookie: sid=YQv3nWRuawxFIFI4gJjSrbDxhvh.GhyyMFhsYYNvNP7rKYzyPg7amN0KN307tj4bDq%2Fv7jQ; domain=huaban.com; path=/; expires=Mon, 07 Jan 2019 11:20:31 GMT; httpOnly
+N-SID: YQv3nWRuawxFIFI4gJjSrbDxhvh.GhyyMFhsYYNvNP7rKYzyPg7amN0KN307tj4bDq/v7jQ
+</responseHeader>
+  <requestHeader class="java.lang.String">Connection: keep-alive
+Content-type: application/x-www-form-urlencoded; charset=UTF-8
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36
+X-Request: JSON
+X-Requested-With: XMLHttpRequest
+Content-Length: 14
+Host: huaban.com
+</requestHeader>
+  <responseData class="java.lang.String">{&quot;err&quot;:404,&quot;msg&quot;:&quot;画板不存在&quot;}</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <cookies class="java.lang.String">sid=YQv3nWRuawxFIFI4gJjSrbDxhvh.GhyyMFhsYYNvNP7rKYzyPg7amN0KN307tj4bDq%2Fv7jQ
+Cookie: uid=24645310</cookies>
+  <method class="java.lang.String">POST</method>
+  <queryString class="java.lang.String">_method=DELETE</queryString>
+  <java.net.URL>http://huaban.com/boards/49447232/</java.net.URL>
+</httpSample>
+<sample t="1" it="0" lt="0" ct="0" ts="1544268032408" s="true" lb="24645310" rc="200" rm="OK" tn="花瓣 1-1" dt="text" de="GBK" by="598" sby="0" sc="1" ec="0" ng="1" na="1" hn="sunbo">
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">JMeterVariables:
+JMeterThread.last_sample_ok=true
+JMeterThread.pack=org.apache.jmeter.threads.SamplePackage@764d14e5
+START.HMS=192028
+START.MS=1544268028999
+START.YMD=20181208
+TESTSTART.MS=1544268029279
+__jm__花瓣__idx=0
+__jmeter.USER_TOKEN__=花瓣 1-1
+sid=YQv3nWRuawxFIFI4gJjSrbDxhvh.GhyyMFhsYYNvNP7rKYzyPg7amN0KN307tj4bDq%2Fv7jQ
+sid_g=1
+sid_g0=sid=YQv3nWRuawxFIFI4gJjSrbDxhvh.GhyyMFhsYYNvNP7rKYzyPg7amN0KN307tj4bDq%2Fv7jQ; domain=
+sid_g1=YQv3nWRuawxFIFI4gJjSrbDxhvh.GhyyMFhsYYNvNP7rKYzyPg7amN0KN307tj4bDq%2Fv7jQ
+uid=24645310
+uid_g=1
+uid_g0=uid=24645310; domain=huaban.com; path=/
+uid_g1=24645310
+
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">JMeterVariables
+</samplerData>
+</sample>
+
+</testResults>
